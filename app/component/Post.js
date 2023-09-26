@@ -4,6 +4,7 @@ function Post() {
       <center>
         <p className="text-headerBlack">Recent Post</p>
       </center>
+      <div className="space-y-5 xl:space-y-0 xl:flex xl:px-60">
       <center>
         <div className="w-11/12 bg-textWhite px-3 py-2 space-y-3">
             <p className="text-headerBlack font-bold text-lg text-start">Making a design system from scratch</p>
@@ -30,6 +31,7 @@ function Post() {
               </p>
           </div>
         </center>
+      </div>
     </div>
   )
 }
